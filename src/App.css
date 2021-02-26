@@ -1,0 +1,11 @@
+.container{
+  text-align: center;
+  position: relative;
+  left: 15%;
+  right: 20%;
+  margin: 40px;
+  padding: 40px;
+}
+.disable{
+  cursor: not-allowed;
+}
