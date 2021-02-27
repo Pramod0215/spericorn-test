@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PropTypes from 'prop-types';
 import { Button,  Form, Col } from "react-bootstrap";
 import { connect } from 'react-redux';
 import * as action from './store/actions/action';
@@ -16,12 +15,6 @@ class App extends Component {
     }
   }
   
-  static propTypes = {
-    userList: PropTypes.array.isRequired,
-    getUser: PropTypes.func.isRequired,
-    addUser: PropTypes.func.isRequired,
-    editUser: PropTypes.func.isRequired,
-  };
 
   // Add New User
   AddNewRow = () => {
